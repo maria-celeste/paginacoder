@@ -1,0 +1,20 @@
+{
+  "name": "coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maria-celeste/paginacoder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maria-celeste/paginacoder/issues"
+  },
+  "homepage": "https://github.com/maria-celeste/paginacoder#readme"
+}
