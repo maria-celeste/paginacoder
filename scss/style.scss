@@ -73,7 +73,7 @@ figure {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    .btn::before {
+    &::before {
         content: "COMPRAR";
         color: black;
         font-family: cursive;
@@ -83,19 +83,19 @@ figure {
         left: 50%;
         transform: translate(-50%, -50%);
         transition: all 3s ease-in-out;
-        .btn:hover::before {
-            top: -30px;
-            .btn::after {
-                font-family: cursive;
-                font-size: 40px;
-                color: black;
-                position: absolute;
-                top: 20%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-        }   
     }
+    btn:hover::before {
+        top: -30px;
+        &::after {
+            font-family: cursive;
+            font-size: 40px;
+            color: black;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }   
 }
 
 /* -- FOOTER -- */

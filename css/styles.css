@@ -82,7 +82,7 @@ figure {
   transform: translate(-50%, -50%);
   border-radius: 5px;
 }
-.btn .btn::before {
+.btn::before {
   content: "COMPRAR";
   color: black;
   font-family: cursive;
@@ -93,10 +93,10 @@ figure {
   transform: translate(-50%, -50%);
   transition: all 3s ease-in-out;
 }
-.btn .btn::before .btn:hover::before {
+.btn:hover::before {
   top: -30px;
 }
-.btn .btn::before .btn:hover::before .btn::after {
+.btn::after {
   font-family: cursive;
   font-size: 40px;
   color: black;
