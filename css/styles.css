@@ -132,7 +132,7 @@ figure {
 .btn:hover::before {
   top: -30px;
 }
-.btn:hover::before::after {
+.btn:hover::before btn::after {
   font-family: cursive;
   font-size: 40px;
   color: black;
