@@ -1,0 +1,15 @@
+@mixin container($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+} 
+  
+.box_cuatro {
+    @include container(200px, 100px, #f72585)
+  }
+.box_cinco {
+    @include container(150px, 50px, #ff871f)
+  }

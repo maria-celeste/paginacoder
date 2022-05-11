@@ -1,0 +1,17 @@
+%btn {
+    width: 100px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+    color: #ffffff;
+  }
+  
+  .btn_enviar {
+    @extend %btn;
+    background-color: #f72585;
+  }
+  .btn_reset {
+    @extend %btn;
+    background-color: #ff871f;
+  }

@@ -6,6 +6,41 @@
   font-family: cursive;
 }
 
+.btn_reset, .btn_enviar {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+.btn_enviar {
+  background-color: #f72585;
+}
+
+.btn_reset {
+  background-color: #ff871f;
+}
+
+.box_cuatro {
+  width: 200px;
+  height: 100px;
+  background-color: #f72585;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_cinco {
+  width: 150px;
+  height: 50px;
+  background-color: #ff871f;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
 .img {
   width: 40%;
 }
@@ -24,6 +59,7 @@
 
 .tituloprincipal {
   color: #f72585;
+  height: 10%;
   text-align: center;
   font-size: 25px;
 }
@@ -96,7 +132,7 @@ figure {
 .btn:hover::before {
   top: -30px;
 }
-.btn::after {
+.btn:hover::before::after {
   font-family: cursive;
   font-size: 40px;
   color: black;
@@ -104,6 +140,22 @@ figure {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* -- OPERADORES -- */
+.box_uno {
+  background-color: #f72585;
+  width: 360px;
+}
+
+.box_dos {
+  background-color: #ff871f;
+  width: 360px -50;
+}
+
+.box_tres {
+  background-color: #f72585;
+  width: 410px;
 }
 
 /* -- FOOTER -- */
