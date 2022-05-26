@@ -20,6 +20,7 @@ $primary-color: #f72585;
 }
 .tituloprincipal {
     color: $primary-color;
+    padding: 15px;
     height: 10%;
     text-align: center;
     font-size: 25px;
@@ -27,26 +28,16 @@ $primary-color: #f72585;
 
 /* -- HEADER NAV -- */
 .nav {
-    display: flex;
-    list-style: none;
-    padding: 6px;
-    background: linear-gradient(to right, #f72585, #ff871f);
-    justify-content: right;
-    align-items: center ;
-    ul li {
-        display: inline-block;
-        list-style: none;
-        padding: 8px;
-        margin: 1rem;
-    a {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        text-decoration: none;
+    background-color: #f72585;
+    width: 100%;
+    padding: 10px;
+    li a {
         color: white;
+        text-decoration: none;
+        list-style: none;
+        font-size: 12px;
     }
     }
-}
 
 /* -- MAIN -- */
 figure {
@@ -66,8 +57,14 @@ figure {
     }
 }
 
+.sect-pantalones {
+    width: 100%;
+    padding: 100px;
+    height: -5px;
+}
+
 /* -- TIENDA -- */
-.btn {
+.tienda-btn {
     width: 10%;
     height: 50px;
     background: #ff871f;

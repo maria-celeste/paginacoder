@@ -59,6 +59,7 @@
 
 .tituloprincipal {
   color: #f72585;
+  padding: 15px;
   height: 10%;
   text-align: center;
   font-size: 25px;
@@ -66,25 +67,15 @@
 
 /* -- HEADER NAV -- */
 .nav {
-  display: flex;
-  list-style: none;
-  padding: 6px;
-  background: linear-gradient(to right, #f72585, #ff871f);
-  justify-content: right;
-  align-items: center;
+  background-color: #f72585;
+  width: 100%;
+  padding: 10px;
 }
-.nav ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 8px;
-  margin: 1rem;
-}
-.nav ul li a {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  text-decoration: none;
+.nav li a {
   color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
 }
 
 /* -- MAIN -- */
@@ -107,8 +98,14 @@ figure {
   border-radius: solid 15px;
 }
 
+.sect-pantalones {
+  width: 100%;
+  padding: 100px;
+  height: -5px;
+}
+
 /* -- TIENDA -- */
-.btn {
+.tienda-btn {
   width: 10%;
   height: 50px;
   background: #ff871f;
@@ -118,7 +115,7 @@ figure {
   transform: translate(-50%, -50%);
   border-radius: 5px;
 }
-.btn::before {
+.tienda-btn::before {
   content: "COMPRAR";
   color: black;
   font-family: cursive;
@@ -129,10 +126,10 @@ figure {
   transform: translate(-50%, -50%);
   transition: all 3s ease-in-out;
 }
-.btn:hover::before {
+.tienda-btn:hover::before {
   top: -30px;
 }
-.btn:hover::before btn::after {
+.tienda-btn:hover::before btn::after {
   font-family: cursive;
   font-size: 40px;
   color: black;
@@ -162,6 +159,7 @@ figure {
 .footer {
   background: #f72585;
   list-style: none;
+  align-items: flex-start;
   text-align: center;
   margin-top: 650px;
   width: 100%;
@@ -170,6 +168,9 @@ figure {
 .footer li a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=styles.css.map */
