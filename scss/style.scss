@@ -3,6 +3,9 @@
 @import "extend";
 @import "mixins";
 
+.contenedor::-webkit-scrollbar {
+    width: 7px;
+}
 .img {
     width: 40%;
 }
@@ -15,7 +18,10 @@ $primary-color: #f72585;
 .parrafofuccia {
     color: $primary-color;
     font-family: cursive;
-    padding: 10px 40px;
+    width: 100%;
+    padding: 10px 60px;
+}
+.text-center {
     text-align: center;
 }
 .tituloprincipal {
@@ -36,6 +42,10 @@ $primary-color: #f72585;
         text-decoration: none;
         list-style: none;
         font-size: 12px;
+        font-family: cursive;
+    }
+    .dropdown li a {
+        color: #ff871f;
     }
     }
 
@@ -63,19 +73,19 @@ figure {
     height: -5px;
 }
 
-/* -- TIENDA -- */
-.tienda-btn {
+/* -- PANTALONES, VESTIDOS, CAMISAS -- */
+.comprar-btn {
     width: 10%;
     height: 50px;
     background: #ff871f;
     position: absolute;
-    top: 80%;
+    top: 320%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
     &::before {
         content: "COMPRAR";
-        color: black;
+        color: #f72585;
         font-family: cursive;
         font-size: 18px;
         position: absolute;

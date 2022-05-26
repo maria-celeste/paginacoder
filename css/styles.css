@@ -41,6 +41,10 @@
   margin: 5px;
 }
 
+.contenedor::-webkit-scrollbar {
+  width: 7px;
+}
+
 .img {
   width: 40%;
 }
@@ -53,7 +57,11 @@
 .parrafofuccia {
   color: #f72585;
   font-family: cursive;
-  padding: 10px 40px;
+  width: 100%;
+  padding: 10px 60px;
+}
+
+.text-center {
   text-align: center;
 }
 
@@ -76,6 +84,10 @@
   text-decoration: none;
   list-style: none;
   font-size: 12px;
+  font-family: cursive;
+}
+.nav .dropdown li a {
+  color: #ff871f;
 }
 
 /* -- MAIN -- */
@@ -104,20 +116,20 @@ figure {
   height: -5px;
 }
 
-/* -- TIENDA -- */
-.tienda-btn {
+/* -- PANTALONES, VESTIDOS, CAMISAS -- */
+.comprar-btn {
   width: 10%;
   height: 50px;
   background: #ff871f;
   position: absolute;
-  top: 80%;
+  top: 320%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
 }
-.tienda-btn::before {
+.comprar-btn::before {
   content: "COMPRAR";
-  color: black;
+  color: #f72585;
   font-family: cursive;
   font-size: 18px;
   position: absolute;
@@ -126,10 +138,10 @@ figure {
   transform: translate(-50%, -50%);
   transition: all 3s ease-in-out;
 }
-.tienda-btn:hover::before {
+.comprar-btn:hover::before {
   top: -30px;
 }
-.tienda-btn:hover::before btn::after {
+.comprar-btn:hover::before btn::after {
   font-family: cursive;
   font-size: 40px;
   color: black;
