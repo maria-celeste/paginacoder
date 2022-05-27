@@ -3,15 +3,6 @@
 @import "extend";
 @import "mixins";
 
-.contenedor::-webkit-scrollbar {
-    width: 7px;
-}
-.img {
-    width: 40%;
-}
-.imgicon {
-    width: 4%;
-}
 
 /* -- VARS -- */
 $primary-color: #f72585;
@@ -115,7 +106,7 @@ $orange: #ff871f;
 
 .box_uno {
     background-color: $pink;
-  width: $ancho/2;
+    width: $ancho/2;
 }
 .box_dos {
     background-color: $orange;

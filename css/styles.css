@@ -6,6 +6,18 @@
   font-family: cursive;
 }
 
+.contenedor::-webkit-scrollbar {
+  width: 7px;
+}
+
+.img {
+  width: 40%;
+}
+
+.imgicon {
+  width: 4%;
+}
+
 .btn_reset, .btn_enviar {
   width: 100px;
   text-align: center;
@@ -39,18 +51,6 @@
   border-radius: 5%;
   text-align: center;
   margin: 5px;
-}
-
-.contenedor::-webkit-scrollbar {
-  width: 7px;
-}
-
-.img {
-  width: 40%;
-}
-
-.imgicon {
-  width: 4%;
 }
 
 /* -- VARS -- */
