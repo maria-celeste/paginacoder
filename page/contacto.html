@@ -28,6 +28,9 @@
                     <li><a class="dropdown-item" href="/page/pantalones.html">PANTALONES</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/page/envio.html">ENVÍO</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/page/terminos.html">TÉRMINOS Y CONDICIONES</a></li>
+                    <li><a class="dropdown-item" href="/page/proceso.html">PROCESO DE COMPRA</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -42,8 +45,8 @@
         <main>
             <section>
                 <article>
-                    <form  class="parrafofuccia" action="#">
-                        <fieldset class="parrafofuccia">
+                    <form action="#">
+                        <fieldset class="for">
                             <legend>Información Personal</legend>
                             <label for="info-personal">Nombre:</label><br>
                             <input type="text" name="username" id="info-personal" placeholder="Nombre"/><br>
@@ -63,13 +66,13 @@
                             <input type="radio" name="usersex" id="sexo" value="masculino" required="true"/>
                             <label for="masculino">Masculino</label><br><br><br>
 
-                            <label for="comentario">Comentario:</label><br>
-                            <textarea class="parrafofuccia" name="comentario" id="comentario" cols="30" rows="10">
+                            <label for="comentario">COMENTARIO:</label><br>
+                            <textarea class="for" name="comentario" id="comentario" cols="30" rows="10">
                                 Escriba su comentario
                             </textarea><br>
                             
-                                <input type="submit" value="Enviar"/>
-                                <input type="reset" value="Reset"/>
+                                <input class="btn btn-secondary" style="background-color: #ff871f;" type="submit" value="Enviar"/>
+                                <input class="btn btn-secondary" style="background-color: #ff871f;" type="reset" value="Reset"/>
                             </fieldset>
                     </form>
                 </article>
@@ -86,29 +89,28 @@
             
         </main>
 
-        <footer class="footer">
+        <footer class="text-center text-white" style="background-color: #f72585;">
 
-            <div class="container text-white">
-
-            <div class="row">
-            <div class="col-md-4 col-lg-4">
-                <a href="http://twitter.com"><img src="/multimedia/imagenes/twitter.png" alt="twitter" width="9%"></a>
-                <a href="http://linkedin.com"><img src="/multimedia/imagenes/linkedin.png" alt="linkedin" width="9%"></a>
-                <a href="http://instagram.com"><img src="/multimedia/imagenes/instagram.png" alt="instagram" width="9%"></a>
-                <a href="http://facebook.com"><img src="/multimedia/imagenes/facebook.png" alt="facebook" width="9%"></a>
+            <!-- GRID CONTAINER -->
+            <div class="container p-4 pb-0">
+    
+              <!-- SECTION: SOCIAL MEDIA -->
+              <section class="mb-4">
+                <a href="http://twitter.com"><img src="/multimedia/imagenes/twitter.png" alt="twitter" width="2%"></a>
+                <a href="http://linkedin.com"><img src="/multimedia/imagenes/linkedin.png" alt="linkedin" width="2%"></a>
+                <a href="http://instagram.com"><img src="/multimedia/imagenes/instagram.png" alt="instagram" width="2%"></a>
+                <a href="http://facebook.com"><img src="/multimedia/imagenes/facebook.png" alt="facebook" width="2%"></a>
+              </section>
+             
             </div>
-            
-                <div class="col-md-4 col-lg-4 text-white">
-                    <li><a href="/index.html">INICIO</a></li>
-                    <li><a href="/page/terminos.html">TÉRMINOS Y CONDICIONES</a></li>
-                    <li><a href="/page/proceso.html">PROCESO DE COMPRA</a></li>
-                </div>
-            
-            
-            </div>
-            </div>
-            
-            </footer>
+    
+            <!-- COPYRIGHT -->
+            <div class="text-center p-3" style="background-color: #f72585;">
+                © 2022 COPYRIGHT
+              </div>
+              
+          </footer>
+    
 
         <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -70,7 +70,7 @@ figure {
     height: 50px;
     background: #ff871f;
     position: absolute;
-    top: 320%;
+    top: 293%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
@@ -97,6 +97,17 @@ figure {
             transform: translate(-50%, -50%);
         }
     }   
+}
+.carousel-indicators {
+    background-color: #f72585;
+}
+
+/* -- FORMULARIO -- */
+.for {
+    color: #f72585;
+    font-family: cursive;
+    width: 100%;
+    padding: 10px 60px;
 }
 
 /* -- OPERADORES -- */
